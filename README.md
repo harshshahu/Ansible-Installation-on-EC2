@@ -58,11 +58,12 @@
    save & exit
 
 6. Execute/type below commands:
+   cd ..
    sudo nano ansible.cfg
      (Open Github repository: 'https://github.com/harshshahu/Ansible-Installation-on-EC2.git',
       Open 'ansible.cfg' copy all file content and paste it)
    save & exit
 
-7. Execute/type below commands:
+8. Execute/type below commands:
    ansible -m ping all
      (you will see Success output with your Host IP's)
